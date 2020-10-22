@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Lucas S. Silva`,
     author: {
-      name: `Lucas S. Silva`,
+      name: `Lucas`,
       summary: `programador, estudante de filosofia, apaixonado por literatura, línguas e música.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
