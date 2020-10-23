@@ -58,6 +58,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 }
 
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === `MarkdownRemark`) {
+    createNodeField({
+      name: `slug`,
+      node,
+      value: node.frontmatter.path,
+    })
+  }
+}
+
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
 
@@ -85,6 +97,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
+      fields: Fields
     }
 
     type Frontmatter {
@@ -92,6 +105,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String
       date: Date @dateformat
       path: String
+    }
+
+    type Fields {
+      slug: String
     }
   `)
 }
