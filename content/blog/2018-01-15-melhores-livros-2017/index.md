@@ -1,6 +1,7 @@
 ---
 title: Melhores Livros que Li em 2017
 date: "2018-01-15"
+path: "/melhores-livros-2017"
 description: 2017 foi um ano que li uma quantidade boa de livros, principalmente por causa da longa viagem de casa ao trabalho, mas mesmo assim, como em todo ano, penso que não foram tantos livros como gostaria que fossem, afinal, existe um mundo de literatura e tão pouco tempo disponível para ler. Aqui falo um pouco sobre os livros que mais gostei de ler ao longo do ano.
 ---
 

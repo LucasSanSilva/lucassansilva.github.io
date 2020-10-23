@@ -1,6 +1,7 @@
 ---
 title: Melhores Livros que Li em 2018
 date: "2019-01-04"
+path: "/melhores-livros-2018"
 description: Segundo ano escrevendo sobre os melhores livros que li. Esse ano não li tanto quanto o ano passado, principalmente porque não há mais as longas viagens ao trabalho e também porque peguei alguns livros que me fizeram passar alguns meses preso neles...
 ---
 
@@ -88,4 +89,4 @@ Li tantos livros bons que poderia elencar mais, mas acredito que os destaques fi
 
 Agora, que venha 2019!
 
-Leia também: [Melhores Livros de 2017](../2018-01-15-melhores-livros-2017/)
+Leia também: [Melhores Livros de 2017](melhores-livros-2017)
