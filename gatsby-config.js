@@ -5,10 +5,10 @@ module.exports = {
       name: `Lucas`,
       summary: `programador, estudante de filosofia, apaixonado por literatura, línguas e música.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Um blog sobre algumas coisas.`,
+    siteUrl: `http://lucassilva.blog/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `lucas_s_silva`,
     },
   },
   plugins: [
