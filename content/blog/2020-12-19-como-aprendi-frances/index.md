@@ -13,7 +13,7 @@ Durante muito tempo senti vontade de aprender mais uma língua, mas só alguns a
 
 Quando comecei os estudos de francês, não sabia absolutamente nada da língua. Acho que as únicas palavras que conhecia, além de "bonjour" era "omelete de fromage" (quem assistiu O Laboratório de Dexter na infância entendo o por quê hehe).
 
-Não acredito em quem fala de métodos ou fórmulas para "aprender francês (ou qualquer outra língua) em 3 meses", ou com ser fluente rapidamente, pois o aprendizado de um novo idioma não é algo fácil e rápido, mas acho que os passos que segui podem servir de motivação e trazer alguns recursos válidos para quem quer se aventurar a aprender uma nova língua sozinho.
+Não acredito em quem fala de métodos ou fórmulas para "aprender francês (ou qualquer outra língua) em 3 meses", ou como ser fluente rapidamente, pois o aprendizado de um novo idioma não é algo fácil e rápido, mas acho que os passos que segui podem servir de motivação e trazer alguns recursos válidos para quem quer se aventurar a aprender uma nova língua sozinho.
 
 O primeiro passo que tomei foi pesquisar. Pensei em fazer o curso do Duolingo, que é um site bem famoso e gratuito, mas depois de ler alguns reviews não muito bons, e de receber uma boa promoção, optei por fazer o curso do Babbel. De cara, me adaptei bem ao método usado, de lições curtas, com diálogos para completar e inserindo questões gramaticais aos poucos, sem necessidade de muita decoreba. Outro ponto bem interessante do Babbel é a revisão programada: de vez em quando, o próprio site te faz revisar palavras e expressões que ele considera que você ainda não conhece totalmente, ou por serem novas, ou por você as ter pouco revisado.
 
