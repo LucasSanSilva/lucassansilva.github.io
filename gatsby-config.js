@@ -3,12 +3,13 @@ module.exports = {
     title: `Lucas S. Silva`,
     author: {
       name: `Lucas`,
-      summary: `programador, estudante de filosofia, apaixonado por literatura, línguas e música.`,
+      summary: `programador, bacharel em filosofia, apaixonado por literatura, línguas e música.`,
     },
     description: `Um blog sobre algumas coisas.`,
     siteUrl: `http://lucassilva.blog/`,
     social: {
-      twitter: `lucas_s_silva`,
+      twitter: `https://twitter.com/lucas_s_silva`,
+      linkedin: `https://www.linkedin.com/in/lucassantossilva/`,
     },
   },
   plugins: [

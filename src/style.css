@@ -302,6 +302,22 @@ a:focus {
   border-radius: 100%;
 }
 
+.bio-text-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-social-box {
+  margin-top: var(--spacing-4);
+}
+
+.bio-social-icon {
+  width: 30px;
+  height: 30px;
+  opacity: 70%;
+  margin-right: var(--spacing-2);
+}
+
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }

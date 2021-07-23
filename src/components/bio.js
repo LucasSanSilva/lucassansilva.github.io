@@ -9,6 +9,11 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
+import linkedin from '../../content/assets/linkedin-icon.svg'
+import twitter from '../../content/assets/twitter-icon.svg'
+import facebook from '../../content/assets/fb-icon.svg'
+import instagram from '../../content/assets/instagram-icon.svg'
+
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
@@ -26,7 +31,8 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            twitter,
+            linkedin
           }
         }
       }
@@ -39,19 +45,26 @@ const Bio = () => {
 
   const avatar = data?.avatar?.childImageSharp?.fixed
 
+  const SocialIcons = () => (
+    <>
+      {social.linkedin && <a href={social.linkedin}><img src={linkedin} className="bio-social-icon" /></a>}
+      {social.twitter && <a href={social.twitter}><img src={twitter} className="bio-social-icon" /></a>}
+      {social.facebook && <img src={facebook} className="bio-social-icon" />}
+      {social.instagram && <img src={instagram} className="bio-social-icon" />}
+    </>
+  )
+
   return (
     <div className="bio">
-      {avatar && (
-        <Image
-          fixed={avatar}
-          alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        />
-      )}
-      {author?.name && (
+      <Image
+        fixed={avatar}
+        alt={author?.name || ``}
+        className="bio-avatar"
+        imgStyle={{
+          borderRadius: `50%`,
+        }}
+      />
+      <div className="bio-text-social">
         <p>
           Escrito por <strong>{author.name}</strong>, {author?.summary || null}
           {` `}
@@ -59,7 +72,10 @@ const Bio = () => {
             You should follow them on Twitter
           </a> */}
         </p>
-      )}
+        <div className="bio-social-box">
+          <SocialIcons />
+        </div>
+      </div>
     </div>
   )
 }
